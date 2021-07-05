@@ -20,7 +20,8 @@ h1{
 }
 .row{
     padding: 10px;
-    margin-left: 100px;
+    margin: 0 auto;
+    width: max-content;
 }
 
 img{
@@ -32,20 +33,25 @@ img{
     object-fit: cover;
     background-color: white;
 }
-.image, .change-image{
+.change-image{
     position: relative;
     float: left;
 }
 .discovered-img{ 
     object-fit: contain;
+    display: block;
 }
-.image span{
+.deactivated-pattern{
+    display: none;
+}
+.change-image span{
     position: absolute;
+    bottom: 0;
     left: 50px;
-    bottom: 0px;
     font-family: 'Baloo 2', cursive;
     color: magenta;
     font-size: 18px;
+    display: none;
 }
 .image1{
     display: block;
@@ -58,6 +64,9 @@ img{
     display: none;
 }
 .change-image:hover .image2{
+    display: block;
+}
+.change-image:hover span{
     display: block;
 }
 footer{
