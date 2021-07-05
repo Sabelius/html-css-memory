@@ -44,14 +44,31 @@ img{
 .deactivated-pattern{
     display: none;
 }
-.change-image span{
+span{
     position: absolute;
     bottom: 0;
     left: 50px;
     font-family: 'Baloo 2', cursive;
-    color: magenta;
     font-size: 18px;
     display: none;
+}
+.Air{
+    color: magenta;
+}
+.By{
+    color: green;
+}
+.Tr{
+    color: red;
+}
+.Sh{
+    color:orange;
+}
+.Tra{
+    color: blue;
+}
+.Sub{
+    color: purple;
 }
 .image1{
     display: block;
