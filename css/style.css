@@ -23,12 +23,11 @@ h1{
     margin: 0 auto;
     width: max-content;
 }
-
 img{
     float: left;
     height: 180px;
     width: 150px;
-    margin-left: 20px;
+    margin-right: 10px;
     border-radius: 10px;
     object-fit: cover;
     background-color: white;
@@ -37,17 +36,10 @@ img{
     position: relative;
     float: left;
 }
-.discovered-img{ 
-    object-fit: contain;
-    display: block;
-}
-.deactivated-pattern{
-    display: none;
-}
 span{
     position: absolute;
     bottom: 0;
-    left: 50px;
+    left: 30px;
     font-family: 'Baloo 2', cursive;
     font-size: 18px;
     display: none;
@@ -77,13 +69,16 @@ span{
     display: none;
     object-fit: contain;
 }
-.change-image:hover .image1{
+.change-image:hover .image1, 
+.change-image.active .image1{
     display: none;
 }
-.change-image:hover .image2{
+.change-image:hover .image2,
+.change-image.active .image2{
     display: block;
 }
-.change-image:hover span{
+.change-image:hover span,
+.change-image.active span{
     display: block;
 }
 footer{
