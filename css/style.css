@@ -30,7 +30,21 @@ img{
     margin-left: 20px;
     border-radius: 10px;
     object-fit: cover;
-}
-.discovered-img{
     background-color: white;
 }
+.image{
+    position: relative;
+    float: left;
+}
+.discovered-img{ 
+    object-fit: contain;
+}
+.image span{
+    position: absolute;
+    left: 45px;
+    bottom: 0px;
+    font-family: 'Baloo 2', cursive;
+    color: magenta;
+    font-size: 20px;
+}
+
