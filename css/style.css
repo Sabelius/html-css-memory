@@ -5,10 +5,10 @@
 }
 .container{
     background-color: lightblue;
-    margin: 0 100px;
+    margin: 0 200px;
+    font-family: 'Baloo 2', cursive;
 }
 h1{
-    font-family: 'Baloo 2', cursive;
     font-size: 70px;
     color: white;
     text-align: center;
@@ -20,7 +20,7 @@ h1{
 }
 .row{
     padding: 10px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 img{
@@ -32,7 +32,7 @@ img{
     object-fit: cover;
     background-color: white;
 }
-.image{
+.image, .change-image{
     position: relative;
     float: left;
 }
@@ -41,10 +41,27 @@ img{
 }
 .image span{
     position: absolute;
-    left: 45px;
+    left: 50px;
     bottom: 0px;
     font-family: 'Baloo 2', cursive;
     color: magenta;
+    font-size: 18px;
+}
+.image1{
+    display: block;
+}
+.image2{
+    display: none;
+    object-fit: contain;
+}
+.change-image:hover .image1{
+    display: none;
+}
+.change-image:hover .image2{
+    display: block;
+}
+footer{
     font-size: 20px;
+    text-align: center;
 }
 
