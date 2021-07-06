@@ -7,11 +7,12 @@
     background-color: lightblue;
     margin: 0 200px;
     font-family: 'Baloo 2', cursive;
+    text-align: center;
 }
 h1{
     font-size: 70px;
     color: white;
-    text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
 .clearfix::after{
     content: "";
@@ -31,6 +32,7 @@ img{
     border-radius: 10px;
     object-fit: cover;
     background-color: white;
+    box-shadow: 1px 1px 1px black;
 }
 .change-image{
     position: relative;
@@ -39,8 +41,8 @@ img{
 span{
     position: absolute;
     bottom: 0;
-    left: 30px;
-    font-family: 'Baloo 2', cursive;
+    left: 0;
+    right:0;
     font-size: 18px;
     display: none;
 }
@@ -83,6 +85,5 @@ span{
 }
 footer{
     font-size: 20px;
-    text-align: center;
 }
 
